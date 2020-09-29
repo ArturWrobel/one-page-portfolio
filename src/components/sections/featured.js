@@ -226,7 +226,7 @@ const StyledProject = styled.div`
       filter: grayscale(100%) contrast(1) brightness(90%);
 
       @media (max-width: 768px) {
-        object-fit: cover;
+        object-fit: coverImage;
         width: auto;
         height: 100%;
         filter: grayscale(100%) contrast(1) brightness(80%);
@@ -246,7 +246,7 @@ const Featured = () => {
           node {
             frontmatter {
               title
-              cover {
+              coverImage {
                 childImageSharp {
                   fluid(maxWidth: 700, traceSVG: { color: "#64ffda" }) {
                     ...GatsbyImageSharpFluid_withWebp_tracedSVG
@@ -283,7 +283,7 @@ const Featured = () => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover } = frontmatter;
+            const { external, title, tech, github, coverImage } = frontmatter;
 
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
@@ -316,7 +316,7 @@ const Featured = () => {
 
                 <div className="project-image">
                   <a href={external ? external : github ? github : '#'}>
-                    <Img fluid={cover.childImageSharp.fluid} alt={title} className="img" />
+                    <Img fluid={coverImage.childImageSharp.fluid} alt={title} className="img" />
                   </a>
                 </div>
               </StyledProject>

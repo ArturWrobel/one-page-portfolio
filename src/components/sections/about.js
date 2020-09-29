@@ -132,7 +132,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = ['Python', 'Django and Flask', 'Pandas', 'PostgreSQL', 'JavaScript', 'HTML & (S)CSS', 'React', 'Gatsby', 'Node.js'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,21 +141,16 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
+            <p>Hello! I'm Artur, a finance expert based in Warsaw who enjoys problems solving and building things that live on the internet.</p>
 
             <p>
-              I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
+              Vast of my carrier I spent working in high street names: <a href="https://www.cantor.com" target="_blank"  rel="noopener noreferrer">Cantor Fitzgerald</a>
+              <a href="https://www.citibank.pl" target="_blank"  rel="noopener noreferrer">, Citibank </a> and <a></a>
+              <a href="https://www.orange.pl" target="_blank"  rel="noopener noreferrer">Orange.</a>
             </p>
-
             <p>
-              Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+            I am building tools to optimise my current environment where I work on a wide variety of interesting and meaningful projects on a daily basis.
             </p>
-
             <p>Here are a few technologies I've been working with recently:</p>
           </div>
 
