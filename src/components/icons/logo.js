@@ -8,7 +8,7 @@ const IconLogo = () => (
         <g
           id="B"
           transform="translate(36, 33)"
-          fill="#64ffda"
+          fill="#FFA630"
           fontFamily="Calibre-Medium, Calibre"
           fontSize="40"
           fontWeight="400"
@@ -22,7 +22,7 @@ const IconLogo = () => (
 
         <polygon
           id="Shape"
-          stroke="#64ffda"
+          stroke="#FFA630"
           strokeWidth="5"
           strokeLinecap="round"
           strokeLinejoin="round"

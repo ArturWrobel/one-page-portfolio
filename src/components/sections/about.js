@@ -149,7 +149,7 @@ const About = () => {
               <a href="https://www.orange.pl" target="_blank"  rel="noopener noreferrer">Orange.</a>
             </p>
             <p>
-            I am building tools to optimise my current environment where I work on a wide variety of interesting and meaningful projects on a daily basis.
+            I experiment and build tools to optimise my current environment where I work on a wide variety of interesting and meaningful projects on a daily basis.
             </p>
             <p>Here are a few technologies I've been working with recently:</p>
           </div>
