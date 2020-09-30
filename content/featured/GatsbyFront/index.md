@@ -3,7 +3,7 @@ date: '2'
 title: 'Gatsby portfolio'
 coverImage: './portfoliogatsby.png'
 github: 'https://github.com/ArturWrobel/one-page-portfolio'
-external: ''
+external: 'http://www.arturwrobel.net/'
 tech:
   - Gatsby
   - Sass

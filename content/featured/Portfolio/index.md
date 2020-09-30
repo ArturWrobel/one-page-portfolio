@@ -3,7 +3,8 @@ date: '5'
 title: 'Sass Portfolio'
 coverImage: './portfolio.png'
 github: 'https://github.com/ArturWrobel/Portfolio-Saas-'
-tech:
+external: 'http://scss.arturwrobel.net/'
+tech: 
   - Sass
   - Html
   - JavaScript
