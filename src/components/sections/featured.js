@@ -276,7 +276,7 @@ const Featured = () => {
   return (
     <section id="projects">
       <h2 className="numbered-heading" ref={revealTitle}>
-        Some Things I’ve Built
+        Things I’ve Built
       </h2>
 
       <div>
@@ -302,12 +302,12 @@ const Featured = () => {
 
                   <div className="project-links">
                     {github && (
-                      <a href={github} aria-label="GitHub Link">
+                      <a href={github} aria-label="GitHub Link" target="_blank"  rel="noopener noreferrer">
                         <Icon name="GitHub" />
                       </a>
                     )}
                     {external && (
-                      <a href={external} aria-label="External Link">
+                      <a href={external} aria-label="External Link" target="_blank"  rel="noopener noreferrer">
                         <Icon name="External" />
                       </a>
                     )}
