@@ -3,8 +3,7 @@ const config = require('./src/config');
 module.exports = {
   siteMetadata: {
     title: 'Artur Wróbel',
-    description:
-      'Artur Wróbel is Financial Expert and Web Developer.',
+    description: 'Artur Wróbel is Financial Expert and Web Developer.',
     siteUrl: 'https://www.arturwrobel.net', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@arturrwrobel',
@@ -151,7 +150,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-45666519-2',
+        trackingId: 'zzzz',
       },
     },
   ],
