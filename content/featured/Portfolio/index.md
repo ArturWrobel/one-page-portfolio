@@ -1,10 +1,10 @@
 ---
-date: '5'
+date: '2'
 title: 'Sass Portfolio'
 coverImage: './portfolio.png'
 github: 'https://github.com/ArturWrobel/Portfolio-Saas-'
 external: 'http://scss.arturwrobel.net/'
-tech: 
+tech:
   - Sass
   - Html
   - JavaScript

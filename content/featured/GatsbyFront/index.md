@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '6'
 title: 'Gatsby portfolio'
 coverImage: './portfoliogatsby.png'
 github: 'https://github.com/ArturWrobel/one-page-portfolio'
