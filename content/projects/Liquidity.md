@@ -4,6 +4,8 @@ title: 'Liquidity'
 cover: './liquidity.png'
 github: 'https://github.com/ArturWrobel/liquidity-manager'
 external: ''
+ios: ''
+android: ''
 tech:
   - Python (Django)
   - PostgreSQL
